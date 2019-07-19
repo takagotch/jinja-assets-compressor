@@ -15,7 +15,12 @@ export CFLAGS=-Qunused-arguments
 
 ```
 {% compress 'css' %}
+<style type="text/sass">
+sass stuff
+</style>
+<link rel="stylesheet" type="text/sass" href="file.sass">
 {% endcompress %}
+
 {% compress 'js' %}
 <script type="text/coffeescript">
 coffee stuff
